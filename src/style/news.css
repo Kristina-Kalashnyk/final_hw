@@ -1,0 +1,20 @@
+.blog-area{
+    padding: 100px 0;
+    background-color: #F8F8F8;
+  }
+  
+  .blog-area .section-heading{
+    margin-bottom: 70px;
+  }
+  .blog-text{
+    margin-top: 40px;
+  }
+  .blog-text p{
+    margin-bottom: 40px;
+  }
+
+  .single-blog {
+    padding-right: 80px;
+  }
+  
+

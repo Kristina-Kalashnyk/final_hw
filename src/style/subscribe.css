@@ -1,0 +1,57 @@
+.signup-area{
+    padding: 180px 0;
+  }
+  
+  .signup-text h3{
+    font-size: 48px;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+    position: relative;
+  }
+  .signup-text h3::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 400px;
+    background-color: #C4C4C4;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .signup-text p{
+    margin-bottom: 45px;
+  }
+  .signup-area .form-control{
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px 0 0 0;
+    padding: 10px 20px;
+  }
+  .signup-area button {
+    border: none;
+    background: #37806B;
+    border-radius: 0px 0px 20px 0px;
+    color: #FFFFFF;
+    padding: 0 40px ;
+    transition: 0.3s;
+  }
+  
+  .signup-area button:hover{
+    background-color: #B0855B;
+  }
+  /*
+  .input-group {
+   /* display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-gap: 20px;
+    width: 49rem;
+    /*
+    display: flex;
+    gap: 20px;
+    width: 49rem;
+    display: flex;
+   flex-direction: column;
+  }*/
+ 
+  
