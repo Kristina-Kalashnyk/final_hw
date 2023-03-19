@@ -37,6 +37,10 @@
     transition: 0.3s;
     cursor: pointer;
   }
+  .single-service:active{
+    background-color: #CAA892;
+    color: #FFFFFF
+  }
   .single-service:hover{
     background-color: #CAA892;
     color: #FFFFFF;

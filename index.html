@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     
     <link rel="stylesheet" href="src/style/main.css">
-    <link rel="stylesheet" href="/script.js">
+    <link rel="stylesheet" href="src/style/animation.css">
 </head>
 <body>
-    <header class="header-area">
+        <header class="header-area">
         <nav class="navbar navbar-expand-lg">
           <div class="container">
+            <div class="loader invisible"></div>
             <a class="navbar-brand" href="#"><img src="src/img/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button">
               <span class="navbar-toggler-icon"></span>
@@ -25,25 +26,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PROJECT</a>
+                  <a class="nav-link" href="#project">PROJECT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">SERVICES</a>
+                  <a class="nav-link" href="#service">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
+                  <a class="nav-link" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">BLOG</a>
+                  <a class="nav-link" href="#blog">BLOG</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">SHOP</a>
+                  <a class="nav-link" href="#shop">SHOP</a>
                 </li> 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
+                  <a class="nav-link" href="#contact">CONTACT</a>
                 </li> 
                 <li class="nav-item">
                   <a class="nav-link" href="#">Sign Up</a>
@@ -52,22 +53,23 @@
             </div>
           </div>
         </nav>
-     </header>
-      <main>
-          <section class="hero-area">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 d-flex align-items-center">
-                  <div class="hero-text pe-0 pe-lg-3">
-                    <h3>MODERN INTERIOR</h3>
-                    <h2>Create Your
+        <div class="progress-bar" id="progressBar">аааа</div>
+    </header>
+    <main>   
+        <section class="hero-area" id="project">
+         <div class="container">
+          <div class="row">
+            <div class="col-lg-6 d-flex align-items-center">
+                <div class="hero-text pe-0 pe-lg-3">
+                 <h3>MODERN INTERIOR</h3>
+                 <h2>Create Your
                       Interior Design.</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                         veniam, quis nostrud exercitation.</p>
-                        <a href="" class="theme-button">CONTACT</a>
+                 <a href="" class="theme-button">CONTACT</a>
                   </div>
-                </div>
+            </div>
                 <div class="col-lg-6">
                   <div class="hero-image design-image">
                     <img src="src/img/chairs.png" alt="">
@@ -76,7 +78,7 @@
               </div>
             </div>
           </section>
-      <section class="service-area">
+      <section class="service-area" id="service">
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
@@ -87,19 +89,10 @@
             </div>
           </div>
           <div class="service-area-buttons">
-            <button class="service-button">
-                <a href="" class="service-button">ALL</a>
-              </button>
-              <button class="service-button">
-                <a 
-                href="" class="service-button">INTERIOR DESIGN</a>
-              </button>
-              <button class="service-button">
-                <a href="" class="service-button">ARCHITECRURE</a>
-              </button>
-              <button class="service-button">
-                <a href="" class="service-button">PLANNING</a>
-              </button>
+            <button class="service-button" id="all">ALL</button>
+              <button class="service-button" id="design">INTERIOR DESIGN</button>
+              <button class="service-button" id="architecture">ARCHITECRURE</button>
+              <button class="service-button" id="plan">PLANNING</button>
           </div>
           <div class="row">
             <div class="col-lg-12">
@@ -118,11 +111,11 @@
                   </div>
                 </div>
                 <div class="Single-service-area px-3 py-4">
-                  <div class="single-service d-flex">
+                  <div class="single-service scndBlock d-flex">
                     <div class="service-image me-3">
                       <img src="src/img/si2.png" alt="">
                     </div>
-                    <div class="service-text">
+                    <div class="service-text" id="scndBlock">
                       <h3>Architecture</h3>
                       <p>Lorem ipsum dolor amet consectetur
                         adipiscing elit sed eiusmod tempor
@@ -164,7 +157,7 @@
           <img src="src/img/group60.png" alt="">
         </div>
       </section>
-      <section class="about-area">
+      <section class="about-area" id="about">
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
@@ -196,6 +189,14 @@
           <img src="src/img/group60.png" alt="">
         </div>
       </section>
+      <div class="weather-api">
+        <div class="weather-heading">Weather Forecast here! <img src="src/img/weather.png" style="width: 35px;"></div>
+        <form id="weatherForm">
+            <input id="inputCity" class="input" type="text" placeholder="Enter city name...">
+            <button class="weather-btn" >Submit</button> 
+        </form>
+       
+      </div>
       <section class="success-area">
         <div class="container">
           <div class="row">
@@ -267,7 +268,7 @@
                       </div>
                     </div>
                   </section>
-                  <section class="testimonial-area">
+                <section class="testimonial-area">
                     <div class="container">
                       <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
@@ -317,7 +318,7 @@
                                 <img src="src/img/Louis.jpg" alt="">
                               </div>
                               <div class="testimonial-text">
-                                <h3>Louis Saville <span>/CEO at Google inc</span></h3>
+                                <h3>Third person <span>/CEO at Google inc</span></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
                                   elit, sed do eiusmod tempor incididunt ut labore
                                   et dolore magna aliqua.</p>
@@ -334,7 +335,7 @@
                       <img src="src/img/group60.png" alt="">
                     </div>
                     </section>
-                    <section class="blog-area">
+                    <section class="blog-area" id="blog">
                         <div class="container">
                           <div class="row">
                             <div class="col-lg-6 offset-lg-3 ">
@@ -346,7 +347,7 @@
                           </div>
                           <div class="row gx-5">
                             <div class="col-lg-6 ">
-                              <div class="single-blog">
+                              <div class="single-blog first-blog">
                                 <div class="blog-image design-image">
                                   <img src="src/img/blog-one.png" alt="">
                                 </div>
@@ -359,7 +360,7 @@
                               </div>
                             </div>
                             <div class="col-lg-6">
-                              <div class="single-blog">
+                              <div class="single-blog second-blog">
                                 <div class="blog-image design-image">
                                   <img src="src/img/blog-two.png" alt="">
                                 </div>
@@ -374,7 +375,7 @@
                           </div>
                         </div>
                       </section>
-                      <section class="signup-area">
+                      <section class="signup-area" id="shop">
                         <div class="container">
                           <div class="row">
                             <div class="col-lg-6 offset-lg-3">
@@ -382,22 +383,35 @@
                                 <h3>DON’T FORGET TO SIGN UP</h3>
                                 <p>Find out early about all upcoming promotions and new product releases with
                                   our newsletter.</p> 
-                                  <div class="input-group d-flex">
-                                      <input  class="form-control py-4"  type="text" id="name" placeholder="Enter your name..." />
-                                      <input  class="form-control" type="text" id="surname" placeholder="Enter your surname..." />
-                                                     
-                                      <input  class="form-control" type="text" id="email" placeholder="Enter your email..." />
-                                       
-                                      <button type="submit" class="btn">SUBSCRIBE</button>
+                                 <!-- <div class="animation">
+                                    <div class="animation-loader">
+                                      <div class="stars"></div>
+                                      <div class="twinkling"></div>
+                                    </div>
+                                  
+                                  </div>-->
+                                                                 
+                                  <form class="input-group" id="forma">
+                             
+                                            <input  class="form-control"  type="text" id="name" placeholder="Enter your name..." pattern="" />
+                                        
+                                            <input  class="form-control" type="text" id="surname" placeholder="Enter your surname..." /> 
+                                                                            
+                                             <input  class="form-control" type="text" id="email" placeholder="Enter your email..." pattern="(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})" />
+                                     
+                                      
+                                   
+                                        <button type="submit" class="btn" id="send">SUBSCRIBE</button>
+                                      
+                                  </form>
                                   </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </section>
-                
+                      </section>              
                     </main>
-                    <footer class="footer-area">
+                    <footer class="footer-area" id="contact">
                         <div class="footer-top">
                           <div class="container">
                             <div class="row">
@@ -474,8 +488,12 @@
                         </div>
                         <div class="footer-bottom py-4">
                           <div class="container">
-                            <div class="footer-bottom-text text-center">
-                              <p class="m-0">Copyright @ 2020 <a href="">Brandoxide</a>. All right reserved.</p>
+                            <div class="footer-bottom-text d-flex justify-content-center">
+                              <div class="m-0" div id="current_date_time_block">Copyright @  </div> 
+                              <div>
+                                <a href="">&nbsp Brandoxide</a>. All right reserved.
+                              </div>
+                            </div>
                             </div>
                           </div>
                         </div>
@@ -527,7 +545,10 @@
            }
        }
    })
-            });</script>  
-                  
+            });</script> 
+            
+<script src="./script.js"></script>
+  
+        
 </body>
 </html>

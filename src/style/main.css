@@ -8,7 +8,7 @@
 @import url(news.css);
 @import url(subscribe.css);
 @import url(footer.css);
-
+@import url(weather.css);
 
 /* Media CSS Start  */
 /* Work area css */
@@ -216,71 +216,15 @@
   /* success area css */
   
     .success-area{
-      padding-top: 20px;
-      padding-bottom: 70px;
+        display: none;
     }
-    .success-area .theme-button{
-      margin-bottom: 35px;
-    }
-  
-  
-  
+     
     /* work area css */
   
     .work-area{
-      padding-top: 60px;
-       padding-bottom: 0px;}
-    .work-area .single-work{
-      margin-bottom: 100px;
+        display: none;
     }
-     .single-work-text::after{
-        position: absolute;
-        content: "";
-        height: 50px;
-        width: 100px;
-        top: 200px;
-        z-index: -1;
-        left: 100px;
-        border-left: 2px solid #E0E0E0;
-        border-bottom: 2px solid #E0E0E0;
-        border-right: none;
-        border-top: none;
-      }
-      .single-work-text.special::after{
-        left: 0px;
-        top: -50px;
-        border-right: 2px solid #E0E0E0;
-        border-top: none;
-        border-left: none;
-        border-bottom: none;
-      }
-      .single-work-two .single-work-text::before{
-        height: 50px;
-        width: 100px;
-        right: 100px;
-        top: 200px;
-        border-bottom: 2px solid #E0E0E0;
-        border-right: 2px solid #E0E0E0;
-       
-      }
-      .single-work-three .single-work-text::before{
-        height: 50px;
-        width: 100px;
-        left: 100px;
-        top: -50px;
-        border-left: 2px solid #E0E0E0;
-        border-top: none;
-        border-bottom: none;
-        border-right: none;
-       
-      }
-      .single-work-text.special{
-        margin-left: 200px;
-      }
-      .special{
-        margin-top: 0;
-      }
-      
+     
       /* testimonial area css */
   
     .testimonial-area{

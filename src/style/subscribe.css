@@ -22,13 +22,19 @@
     margin-bottom: 45px;
   }
   .signup-area .form-control{
+  
+    width: 305px;
     background-color: #EEEEEE;
     border: none;
     font-size: 20px;
     border-radius: 20px 0 0 0;
     padding: 10px 20px;
+    height: 50px;
+    
   }
   .signup-area button {
+    width: 184px;
+    height: 48px;
     border: none;
     background: #37806B;
     border-radius: 0px 0px 20px 0px;
@@ -40,18 +46,14 @@
   .signup-area button:hover{
     background-color: #B0855B;
   }
-  /*
+  
   .input-group {
-   /* display: grid;
-    grid-template-columns: 1fr 1fr 2fr 2fr;
-    grid-gap: 20px;
-    width: 49rem;
-    /*
     display: flex;
-    gap: 20px;
-    width: 49rem;
-    display: flex;
-   flex-direction: column;
-  }*/
+    gap: 15px;
+    flex-direction:row;
+    
+    max-width: 512px;
+    margin: 0 auto;
+  }
  
   

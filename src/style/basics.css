@@ -34,24 +34,36 @@ body {
     color: #fff;
   }
   .service-area-buttons {
-    display: flex;
-    align-content: center;
+   
   }
  .service-button {
+    height: 50px;
     border-radius: 25px;
+    border-width: 5px;
     width: 13rem;
     text-decoration: none;
     font-weight: bold;
     color: #fff;
     background-color: #37806B;  
-    border-color: #37806B;  
-    border-width: 5;
-    padding: 10px 20px;
+    border-color: #fff;
     transition: 0.3s;
     margin-top: 20px;
     margin-right: 2rem;
-   
- }  
+ } 
+ .service-button:hover {
+  height: 50px;
+  border-radius: 25px;
+  border-width: 5px;
+  width: 13rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #37806B;
+  background-color: #fff; 
+  border-color: #37806B;
+  transition: 0.3s;
+  margin-top: 20px;
+  margin-right: 2rem;
+}  
 .design-image {
     position: relative;
     z-index: 1;  
@@ -124,3 +136,12 @@ body {
     height: 100px;
 }
 
+.loader {
+  border: 1px solid red;
+  height: 50px;
+  width: 50px;
+}
+
+.invisible {
+  display: none;
+}
