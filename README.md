@@ -15,20 +15,20 @@ URL without parameters: http://api.weatherapi.com/v1/current.json?key=${apiKey}&
 
 ##### Input parameters:
 ```
-***apiKey*** - which can be easily obtained by registering on the site;  
-***city*** - the city where we want to know the weather.
+apiKey - which can be easily obtained by registering on the site;  
+city - the city where we want to know the weather.
 ```
 ##### Output parameters:
 ```
-***location.name*** - the name of the city;  
-***location.country*** - the name of the country;  
-***current.temp*** - temerature in  degrees Celsius;  
-***current.condition*** - description of weather conditionals.  
+location.name - the name of the city;  
+location.country - the name of the country;  
+current.temp - temerature in  degrees Celsius;  
+current.condition - description of weather conditionals.  
 ```
 ### -JSON+JS filtering projects:
-
+```
 JSON file was created by myself, without any other sources.
-
-#### -Implementation of switching different reviews (carousel);
-#### -After correctly filling out the data storage form in the local storage;
-#### -Added links to social networks.
+```
+#### - Implementation of switching different reviews (carousel);
+#### - After correctly filling out the data storage form in the local storage;
+#### - Added links to social networks.
