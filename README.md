@@ -6,8 +6,10 @@
 #### - The presence of gradual changes and animations;
 ### - Interaction with public API:
 
+```html
 Added weather forecast using Weather API and Geolocation API with resource <https://www.weatherapi.com>. 
 Query execution only works with **VPN enabled**.
+```
 
 ##### Receiving the information:
 
