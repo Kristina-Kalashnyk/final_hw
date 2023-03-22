@@ -1,17 +1,18 @@
 .weather-api {
     position: absolute;
     right: 0;
-    z-index: -99;
+    z-index: 100;
 }
+
 .weather-heading {
     color: #514834;
     text-shadow: rgb(196, 187, 150) 1px 0 10px;
-	
 }
+
 .card {
-    position: absolute;
-    right: 0;
-    margin-top: -245px;
+	position: absolute;
+	right: 0;
+	margin-top: -245px;
 	display: flex;
 	flex-direction: column;
 	row-gap: 20px;
@@ -20,10 +21,9 @@
 	background-color: #fff;
 	border-radius: 6px;
 	box-shadow: 0px 5px 20px rgba(166, 146, 115, 0.253);
-	z-index: -10;
 }
 
-.card::before {
+.card::after {
 	left: -20px;
 	right: 20px;
 	top: -20px;
@@ -76,7 +76,6 @@
 .card-description {
 	font-size: 20px;
 	line-height: 1.2;
-	
 }
 
 .weather-btn {
@@ -89,5 +88,4 @@
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1;
-	
 }

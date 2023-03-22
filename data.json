@@ -1,0 +1,21 @@
+{"inter_design": 
+[{"id": 1,"name":"Interior Design 1","body": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."},
+{"id": 2,"name":"Interior Design 2","body": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."},
+{"id": 3,"name":"Interior Design 3","body": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."},
+{"id": 4,"name":"Interior Design 4","body": "Lorem ipsum dolor amet consectetur adipiscing elit sed  eiusmod tempor incididunt ut labore."},
+{"id": 5,"name":"Interior Design 5","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."}],
+"architecture":
+[{"id": 1,"name":"Architecture 1","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."},
+{"id": 2,"name":"Architcture 2","body": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."},
+{"id": 3,"name":"Architecture 3","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."},
+{"id": 4,"name":"Architecture 4","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."},
+{"id": 5,"name":"Architecture 5","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."}],
+"planning":
+[{"id": 1,"name":"Planning 1","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."},
+{"id": 2,"name":"Planning 2","body": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."},
+{"id": 3,"name":"Planning 3","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."},
+{"id": 4,"name":"Planning 4","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."},
+{"id": 5,"name":"Planning 5","body": "Lorem ipsum dolor amet consectetur adipiscing elit sedeiusmod tempor incididunt ut labore."}]
+}
+
+

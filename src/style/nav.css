@@ -1,56 +1,56 @@
-.header-area{
-    padding: 30px 0;
-    top: 0;
-    position: sticky;
-    z-index: 99;
-    background-color: #fff;
-    
-  }
-  .header-area .nav-item{
-    margin-left: 30px;
-    
-  }
-  .header-area .nav-link{
-    text-transform: uppercase;
-    color: #111111;
-    font-weight: 600;
-    
-  }
-  .header-area li :hover{
-    color: #37806B;
-    
-  }
-  .header-area .nav-item:last-child{
-    margin-left: 45px;
-  }
-  
-  .header-area .nav-item:last-child .nav-link{
-    text-transform: capitalize;
-    color: #fff;
-    background-color: #CAA892;
-    border-radius: 15px 0px;
-    padding: 10px 20px;
-    text-align: center;
-  }
-   
-  .header-area .nav-item .nav-link ::before{
-    text-transform: capitalize;
-    color: #fff;
-    background-color: #CAA892;
-    border-radius: 15px 0px;
-    padding: 10px 20px;
-    text-align: center;
-  }
-  
-  .header-area .navbar-toggler{
-    border: none;
-    box-shadow: none;
-  }
+.header-area {
+  padding: 30px 0;
+  top: 0;
+  position: sticky;
+  z-index: 99;
+  background-color: #fff;
+}
 
-  .progress-bar {
-    left: 0;
-    top: 0;
-    height: 4px; 
-    width: 0%;
-    background: rgb(144, 127, 87);
+.header-area .nav-item {
+  margin-left: 30px;
+}
+
+.header-area .nav-link {
+  text-transform: uppercase;
+  color: #111111;
+  font-weight: 600;
+}
+
+.header-area li :hover {
+  color: #37806B;
+}
+
+.header-area .nav-item:last-child {
+  margin-left: 45px;
+}
+  
+.header-area .nav-item:last-child .nav-link {
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #CAA892;
+  border-radius: 15px 0px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.header-area .nav-item .nav-link ::before {
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #CAA892;
+  border-radius: 15px 0px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.header-area .navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+
+.progress-bar {
+  left: 0;
+  top: 0;
+  height: 4px; 
+  width: 0%;
+  background: rgb(144, 127, 87);
 }

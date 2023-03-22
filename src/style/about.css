@@ -1,11 +1,12 @@
-.about-area{
-    padding: 100px 0;
-    position: relative;
-  }
-  .about-text .section-heading h4{
-    font-weight: 500;
-  }
-  
-  .about-area .design {
-    right: 0;
-  }
+.about-area {
+  padding: 100px 0;
+  position: relative;
+}
+
+.about-text .section-heading h4{
+  font-weight: 500;
+}
+
+.about-area .design {
+  right: 0;
+}
